@@ -15,11 +15,11 @@ public class CurrencyConversionServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CurrencyConversionServiceApplication.class, args);
 	}
-	
-	@Bean
-	public RestTemplate getRestTemplate()
-	{
-		return new RestTemplate();
-	}
+
+    @Bean
+    RestTemplate getRestTemplate()
+    {
+        return new RestTemplate();
+    }
 
 }
