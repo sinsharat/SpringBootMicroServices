@@ -1,10 +1,10 @@
-package com.sharat.microservices.netflixzuulapigatewayserver;
+package com.sharat.microservices.springcloudapigateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NetflixZuulApiGatewayServerApplicationTests {
+class SpringCloudApiGatewayApplicationTests {
 
 	@Test
 	void contextLoads() {
